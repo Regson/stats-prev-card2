@@ -23,7 +23,7 @@ body{
     background-image:  url(assests/images/image-header-mobile.jpg);
     background-size: cover;
     width: 600px;
-    accent-color: #aa5cdb;
+    /* accent-color: #aa5cdb; */
 }
 
 .card-content{
