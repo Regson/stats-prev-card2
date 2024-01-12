@@ -1,28 +1,67 @@
 
 body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     background: #090b1a;
-    /* width: 1440px; */
-    text-align: center;
+    width: 1440px;
+    /* text-align: center; */
     font-size: 15px;
 }
 
 .main-card{
-    width: 1000px;
+    width: 1100px;
     display: flex;
-    margin: auto;
-    border: 2px solid red;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 .card-image{
-    background-image:  url(assests/images/image-header-desktop.jpg);
+    background-image:  url(assests/images/image-header-mobile.jpg);
     background-size: cover;
-    width: 500px;
-    height: 450px;
-    /* background: #aa5cdb; */
+    width: 600px;
+    accent-color: #aa5cdb;
 }
 
 .card-content{
     background: #1b1938;
-    width: 500px;
-    border: 2px solid white;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 350px;
+    color: 	#ffffff;
+    padding: 20px 100px 50px 50px;
+    text-align: left;
 }
+
+h1{
+    word-spacing: 5px;
+}
+
+#para{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+}
+
+span{
+    color: #aa5cdb;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+
+.stats-con h2{
+    margin-bottom: 0px;
+}
+
+.stats-con p{
+    margin-top: 3px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
