@@ -1,8 +1,9 @@
 
 body{
     background: #090b1a;
-    width: 1440px;
+    /* width: 1440px; */
     text-align: center;
+    font-size: 15px;
 }
 
 .main-card{
@@ -13,10 +14,11 @@ body{
 }
 
 .card-image{
-    background-image: url(assests/images/image-header-desktop.jpg);
+    background-image:  url(assests/images/image-header-desktop.jpg);
     background-size: cover;
     width: 500px;
     height: 450px;
+    /* background: #aa5cdb; */
 }
 
 .card-content{
